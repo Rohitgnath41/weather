@@ -1,0 +1,42 @@
+/* App.css
+.app-background {
+    background-image: url('../src/assets/images.jpeg'); /* Your global background image */
+    /* background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* Full viewport height */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+   /* App.css */
+/* .app-background {
+    background-image: url('../src/assets/images.jpeg'); /* Your global background image */
+    /* background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* Full viewport height */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;  */
+    /* margin: 0; /* Remove default margin */
+    /* padding-top: 0; Ensure no padding is added */
+/* }  */
+
+/*  */
+
+.app-background {
+    background-image: url('../src/assets/blue.jpeg'); /* Ensure the path is correct */
+    background-size: cover; /* Cover the entire background */
+    background-position: top center; /* Align the image to the top center */
+    background-repeat: no-repeat; /* Prevent repeating */
+    min-height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    display: flex; /* Allow for centering content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Ensure no padding is added */
+    overflow: hidden; /* Prevent overflow */
+    position: absolute; /* Position it absolutely to prevent scrolling */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+}

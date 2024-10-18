@@ -1,0 +1,62 @@
+/* .home-container {
+    text-align: center; */
+    /* padding: 50px; */
+    /* background-color: #f8f9fa;
+  } */
+  
+  /* .cta-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+   */
+  /* .cta-button:hover {
+    background-color: #0056b3;
+  }
+   */
+/* .home{
+  background-color: #007bff;
+} */
+.weather-container {
+  position: relative; /* To position the overlay */
+  min-height: 80vh; /* Full viewport height */
+  max-width: 600px; /* Limit width for better appearance */
+  margin: auto; /* Center the container */
+}
+
+.background-image {
+  background-image: url('../assets/weather.png'); /* Ensure the path is correct */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repeating */
+  height: 100%; /* Full height */
+  width: 100%; /* Full width */
+  position: absolute; /* Positioning */
+  top: 0;
+  left: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5); /* Adjust for transparency */
+  z-index: 1; /* Ensure it overlays the background */
+}
+
+.content {
+  position: relative; /* Keep content above the overlay */
+  z-index: 2; /* Ensure it appears above the overlay */
+  display: flex; /* Allow for centering content */
+  flex-direction: column; /* Stack content vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  color: white; /* Text color */
+}
